@@ -1,0 +1,26 @@
+# Lumache
+
+Lumache blah 
+
+```{warning}
+This project is under heavy development
+```
+
+## Installation
+
+To install the software, do:
+
+```{code-block}
+
+---
+emphasize-lines: 1
+---
+{.venv} $ pip install lumache
+```
+
+```{eval-rst}
+.. autofunction:: lumache.get_random_ingredients
+```
+
+    
+
