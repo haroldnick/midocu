@@ -3,10 +3,13 @@ version: 2
 build:
   image: testing
 
+sphinx:
+  configuration: midocu/conf.py
+
 python:
   version: "3.9"
   install:
    - method: pip
-     path: code
-   - requirements: docs/requirement.txt
+     path: midocu
+   - requirements: midocu/docs/requirements.txt
       cjarla-
